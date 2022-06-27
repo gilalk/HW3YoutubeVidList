@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cards{
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+.card{
+  box-shadow: 0 0 3px rgba(0 , 0 , 0 , 0.1);
+}
+
+.card_iframe{
+  width: 100%;
+  display: block;
+}
